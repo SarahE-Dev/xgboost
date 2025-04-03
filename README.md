@@ -22,13 +22,9 @@ This project is a RESTful microservice that uses an XGBoost model to predict the
 ### 1. Clone the Repository (or Copy Files)
 If this is in a repo:
 ```bash
-git clone <repository-url>
-cd housing-risk-microservice
+git clone https://github.com/SarahE-Dev/xgboost
+cd xgboost
 ```
-Otherwise, ensure you have the following files:
-- `generate_data.py` (synthetic data script)
-- `train_model.py` (model training script)
-- `app.py` (microservice script)
 
 ### 2. Install Dependencies
 ```bash
