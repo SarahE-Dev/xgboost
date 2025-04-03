@@ -6,7 +6,7 @@ This project is a RESTful microservice that uses an XGBoost model to predict the
 - **Purpose**: Predict the risk of homelessness using features like age, income, rent, dependents, employment status, and savings.
 - **Model**: XGBoost (gradient-boosted decision trees).
 - **Output**: Probability (0 to 1) of being at risk.
-- **Tech Stack**: Python, Flask, XGBoost, Pandas, Joblib.
+- **Tech Stack**: Python, Flask, XGBoost, Pandas, Joblib, SKLearn, Requests.
 
 ## Features
 - **API Endpoint**: `/predict` (POST) accepts JSON input and returns a risk probability.
@@ -28,7 +28,8 @@ cd xgboost
 
 ### 2. Install Dependencies
 ```bash
-pip install flask xgboost joblib pandas numpy sklearn
+pip install flask xgboost joblib pandas numpy requests scikit-learn
+
 ```
 
 ### 3. Generate Synthetic Data
